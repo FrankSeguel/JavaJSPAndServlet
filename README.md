@@ -1,2 +1,1 @@
-# JavaJSPAndServlet
-Java JSP And Servlet Example
+# Java JSP And Servlet Example
