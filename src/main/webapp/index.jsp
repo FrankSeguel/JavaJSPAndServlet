@@ -11,8 +11,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-
+        
+        <jsp:useBean id="hola" class="cl.accenture.servlet.Hola" />   
+        <h1><%= hola.getHola() %></h1>
+     
+        
         <a href="HelloWorldServlet">Go to servlet 1</a>
         <br>
         <form action="HelloWorldServlet">
